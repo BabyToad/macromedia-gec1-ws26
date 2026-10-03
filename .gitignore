@@ -1,0 +1,69 @@
+# Unity .gitignore für Game Engines & Coding 1
+# Basiert auf github/gitignore Unity.gitignore (https://github.com/github/gitignore/blob/main/Unity.gitignore).
+# Muss GENAU im Projektordner liegen (neben Assets, Packages, ProjectSettings).
+# Die Muster mit "/" vorne gelten nur für diesen Ordner.
+
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Asset-Store-Tools und Plugin-Caches
+/[Aa]ssets/AssetStoreTools*
+/[Aa]ssets/Plugins/Editor/JetBrains*
+.utmp/
+
+# Editor- und IDE-Dateien (werden von Unity neu erzeugt)
+.vs/
+# VS Code: Unity's Visual Studio Editor package writes .vscode/settings.json with the name of the
+# project folder (dotnet.defaultSolution). It differs per clone, so it stays out of Git.
+# launch.json and extensions.json ship with the template.
+.vscode/settings.json
+.idea/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Absturzberichte und Logs
+sysinfo.txt
+mono_crash.*
+*.log
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+
+# Blender-Sicherungsdateien
+*.blend1
+*.blend1.meta
+
+# Betriebssystem
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,29 @@
+# .gitattributes für Game Engines & Coding 1
+# Zeilenenden einheitlich halten (Windows und Mac im selben Kurs).
+* text=auto
+
+# Unity-Szenen, Prefabs und Assets sind Text (YAML). Nie automatisch umschreiben lassen.
+*.unity text eol=lf
+*.prefab text eol=lf
+*.asset text eol=lf
+*.mat text eol=lf
+*.meta text eol=lf
+*.anim text eol=lf
+*.controller text eol=lf
+
+# Binärdateien: Git soll nicht versuchen, sie zu vergleichen oder zu mischen.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.psd binary
+*.tga binary
+*.exr binary
+*.hdr binary
+*.fbx binary
+*.blend binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.mp4 binary
+*.ttf binary
+*.otf binary
