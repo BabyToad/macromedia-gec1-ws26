@@ -38,6 +38,15 @@
       "source": "builtin",
       "dependencies": {}
     },
+    "com.unity.graphtoolkit": {
+      "version": "0.4.0-exp.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.ide.rider": {
       "version": "3.0.39",
       "depth": 0,
@@ -57,8 +66,8 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.inputsystem": {
-      "version": "1.19.0",
-      "depth": 0,
+      "version": "1.20.0",
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.uielements": "1.0.0"
@@ -187,11 +196,20 @@
       "url": "https://packages.unity.com"
     },
     "de.macromedia.gec1": {
-      "version": "https://github.com/BabyToad/macromedia-gec1-kit.git#v0.1.0",
+      "version": "https://github.com/BabyToad/macromedia-gec1-kit.git#v0.3.1",
       "depth": 0,
       "source": "git",
-      "dependencies": {},
-      "hash": "7d308596086d57e12f06fb0c1f495c7135119d10"
+      "dependencies": {
+        "com.unity.graphtoolkit": "0.4.0-exp.2",
+        "com.unity.inputsystem": "1.20.0",
+        "com.unity.modules.ai": "1.0.0",
+        "com.unity.modules.animation": "1.0.0",
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.render-pipelines.universal": "17.3.0",
+        "com.unity.ugui": "2.0.0"
+      },
+      "hash": "9e3cecf3146f7b1a59392e1f40bd1a15a0a2cfe3"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
