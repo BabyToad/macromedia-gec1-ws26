@@ -4,6 +4,17 @@ Dieses Dokument wächst mit dem Projekt. Wer jede Woche ein paar Zeilen ergänzt
 eine Dokumentation statt einer Nachtschicht. Am Ende wird daraus die PDF (Konzept und
 Dokumentation zusammen 40 Punkte). Bilder mit Datum einfügen: `![Blockout, 13.11.](bilder/2026-11-13-blockout.png)`.
 
+## Titelblatt
+
+- **Titel des Spiels:**
+- **Name:**
+- **Matrikelnummer:**
+- **Studiengang und Semester:**
+- **Kurs:** Game Engines & Coding 1, Jonas Heinke, Hochschule Macromedia Leipzig, WiSe 2026/27
+- **Abgabe:** 22.01.2027
+- **Repository:** (Link)
+- **Bild:** ein Screenshot aus dem Spiel
+
 ## 1. Idee
 
 - **Worum geht es?** (ein Satz)
@@ -56,6 +67,20 @@ Was hat funktioniert, was nicht, was würde beim nächsten Projekt anders laufen
 
 - Fremde Assets mit Quelle und Lizenz.
 - Das KI-Verzeichnis (`KI-VERZEICHNIS.md`) kommt in den Anhang der PDF.
+
+## 10. Spielanleitung
+
+So genau, dass jemand das Spiel ohne Hilfe starten und spielen kann.
+
+- **Starten:** Den Ordner mit dem Build entpacken und die `.exe` doppelklicken. Windows zeigt bei
+  selbst gebauten Spielen oft „Der Computer wurde durch Windows geschützt“ (SmartScreen): auf
+  **Weitere Informationen** und dann **Trotzdem ausführen** klicken.
+- **Steuerung:** alle Tasten und Knöpfe, z. B. „WASD laufen, Maus umsehen, Leertaste springen, E benutzen“.
+- **Ziel:** Was ist zu tun, und woran merkt man, dass es geschafft ist?
+
+## Eigenständigkeitserklärung
+
+(Der Wortlaut folgt über Blackboard und kommt hierher.)
 
 ## Entwicklungstagebuch
 
