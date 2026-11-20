@@ -19,6 +19,16 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.cinemachine": {
+      "version": "3.1.7",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.splines": "2.0.0",
+        "com.unity.modules.imgui": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.collections": {
       "version": "2.6.5",
       "depth": 2,
@@ -135,6 +145,13 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.settings-manager": {
+      "version": "2.1.1",
+      "depth": 3,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.shadergraph": {
       "version": "17.3.0",
       "depth": 1,
@@ -143,6 +160,17 @@
         "com.unity.render-pipelines.core": "17.3.0",
         "com.unity.searcher": "4.9.3"
       }
+    },
+    "com.unity.splines": {
+      "version": "2.8.4",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
       "version": "1.6.0",
@@ -196,20 +224,22 @@
       "url": "https://packages.unity.com"
     },
     "de.macromedia.gec1": {
-      "version": "https://github.com/BabyToad/macromedia-gec1-kit.git#v0.3.2",
+      "version": "https://github.com/BabyToad/macromedia-gec1-kit.git#v0.5.1",
       "depth": 0,
       "source": "git",
       "dependencies": {
+        "com.unity.cinemachine": "3.1.7",
         "com.unity.graphtoolkit": "0.4.0-exp.2",
         "com.unity.inputsystem": "1.20.0",
         "com.unity.modules.ai": "1.0.0",
         "com.unity.modules.animation": "1.0.0",
         "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.particlesystem": "1.0.0",
         "com.unity.modules.physics": "1.0.0",
         "com.unity.render-pipelines.universal": "17.3.0",
         "com.unity.ugui": "2.0.0"
       },
-      "hash": "ad7ae4c03e3d06a898255cbe54eb33098af11a26"
+      "hash": "0fd321a4ba49cc0ba73046a2f19c099fe8b33c0b"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
