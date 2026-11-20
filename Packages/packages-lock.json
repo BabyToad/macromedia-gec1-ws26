@@ -224,7 +224,7 @@
       "url": "https://packages.unity.com"
     },
     "de.macromedia.gec1": {
-      "version": "https://github.com/BabyToad/macromedia-gec1-kit.git#v0.5.1",
+      "version": "https://github.com/BabyToad/macromedia-gec1-kit.git#v0.5.2",
       "depth": 0,
       "source": "git",
       "dependencies": {
@@ -239,7 +239,7 @@
         "com.unity.render-pipelines.universal": "17.3.0",
         "com.unity.ugui": "2.0.0"
       },
-      "hash": "0fd321a4ba49cc0ba73046a2f19c099fe8b33c0b"
+      "hash": "087e06a01e4ae7e1a399fad847de723667aac4aa"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
